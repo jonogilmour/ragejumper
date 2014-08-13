@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		FBADC96F19821C2300A3CE84 /* floor_i5s.png in Resources */ = {isa = PBXBuildFile; fileRef = FBADC96E19821C2300A3CE84 /* floor_i5s.png */; };
 		FBB37F86197B7379001A548E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB37F85197B7379001A548E /* AppDelegate.swift */; };
-		FBB37F88197B7379001A548E /* GameScene.sks.dep in Resources */ = {isa = PBXBuildFile; fileRef = FBB37F87197B7379001A548E /* GameScene.sks.dep */; };
+		FBB37F88197B7379001A548E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBB37F87197B7379001A548E /* GameScene.sks */; };
 		FBB37F8A197B7379001A548E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB37F89197B7379001A548E /* GameScene.swift */; };
 		FBB37F8C197B7379001A548E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB37F8B197B7379001A548E /* GameViewController.swift */; };
 		FBB37F8F197B7379001A548E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB37F8D197B7379001A548E /* Main.storyboard */; };
@@ -32,11 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FBADC96E19821C2300A3CE84 /* floor_i5s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floor_i5s.png; sourceTree = "<group>"; };
+		FBADC96E19821C2300A3CE84 /* floor_i5s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = floor_i5s.png; path = ZachsHouse/Resources/floor_i5s.png; sourceTree = SOURCE_ROOT; };
 		FBB37F80197B7379001A548E /* ZachsHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZachsHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB37F84197B7379001A548E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBB37F85197B7379001A548E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FBB37F87197B7379001A548E /* GameScene.sks.dep */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = GameScene.sks.dep; sourceTree = "<group>"; };
+		FBB37F87197B7379001A548E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		FBB37F89197B7379001A548E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		FBB37F8B197B7379001A548E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		FBB37F8E197B7379001A548E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,14 +68,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FBADC97019821C2800A3CE84 /* World.atlas */ = {
-			isa = PBXGroup;
-			children = (
-				FBADC96E19821C2300A3CE84 /* floor_i5s.png */,
-			);
-			name = World.atlas;
-			sourceTree = "<group>";
-		};
 		FBB37F77197B7379001A548E = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +91,7 @@
 			children = (
 				FBB91BB619876978004FB6D2 /* config.plist */,
 				FBB37F85197B7379001A548E /* AppDelegate.swift */,
-				FBB37F87197B7379001A548E /* GameScene.sks.dep */,
+				FBB37F87197B7379001A548E /* GameScene.sks */,
 				FBB37F89197B7379001A548E /* GameScene.swift */,
 				FBB37F8B197B7379001A548E /* GameViewController.swift */,
 				FBB37F8D197B7379001A548E /* Main.storyboard */,
@@ -149,25 +141,9 @@
 		FBB91BB819876E3D004FB6D2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FBB91BB919876E4F004FB6D2 /* Textures */,
+				FBADC96E19821C2300A3CE84 /* floor_i5s.png */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		FBB91BB919876E4F004FB6D2 /* Textures */ = {
-			isa = PBXGroup;
-			children = (
-				FBB91BBA19876E57004FB6D2 /* Characters.atlas */,
-				FBADC97019821C2800A3CE84 /* World.atlas */,
-			);
-			name = Textures;
-			sourceTree = "<group>";
-		};
-		FBB91BBA19876E57004FB6D2 /* Characters.atlas */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Characters.atlas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +230,7 @@
 				FBB37FA9197B77D7001A548E /* spark.png in Resources */,
 				FBB91BB719876978004FB6D2 /* config.plist in Resources */,
 				FBB37F91197B7379001A548E /* Images.xcassets in Resources */,
-				FBB37F88197B7379001A548E /* GameScene.sks.dep in Resources */,
+				FBB37F88197B7379001A548E /* GameScene.sks in Resources */,
 				FBB37F8F197B7379001A548E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
